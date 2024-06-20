@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 블럭 1번 */
+.box1{
+    width: 100%;
+    height: 900px;
+    background-image: url(img/bg01.png);
+    background-position: center;
+    background-size: cover;
+}
+.cont1{
+    width: 1100px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 43px;
+}
+.can1{
+    position: absolute;
+    bottom: 96px;
+    right: 192px;
+    width: 384px;
+    height: 617px;
+}
+.title{
+    position: absolute;
+    top: 498px;
+    left: 164px;
+    font-size: 80px;
+    text-align: right;
+    color: white;
+    line-height: 100px;
+}
+/* 블럭 2번 */
+.box2{
+    width: 100%;
+    height: 150px;
+    background-color: #0E7AE3;
+}
+.cont2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.slogan{
+    width: 402px;
+    height: 87px;
+    top: 31px;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+}
+/* 블럭 3번 */
+.box3{
+    width: 100%;
+    height: 1032px;
+    background-color: white;
+    background-size: cover;
+}
+.cont3{
+    width: 100%;
+    height: 1032px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.simbol{
+    width: 403px;
+    height: 403px;
+    position: absolute;
+    top: 150px;
+}
+.name{
+    width: 294px;
+    height: 116px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 60px;
+    top: 576px;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+.Tag{
+    width: 528px;
+    height: 58px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 30px;
+    top: 746px;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+/* 블럭 4번 */
+.box4{
+    width: 100%;
+    height: 640px;
+    background-image: url(img/bg02.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.cont4{
+    width: 100%;
+    height: 640px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+}
+.text{
+    width: 524px;
+    height: 162px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 50px;
+    line-height: 65px;
+    top: 177px;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+.txt{
+    width: 636px;
+    height: 189px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    top: 384px;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+/* 블럭 5번 */
+.box5{
+    width: 100%;
+    height: 1249px;
+    top: 640px;
+    background-image: url(img/bg03.png);
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.cont5{
+    width: 100%;
+    height: 1249px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+}
+.logo2{
+    position: absolute;
+    top: 45px;
+}
+.can2{
+    position: absolute;
+    margin: 0;
+    left : 320px;
+    bottom: 0;
+}
